@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.addEventListener('DOMContentLoaded', function () {
   const circles = document.querySelectorAll('.circle');
   const prevButton = document.getElementById('prev');
