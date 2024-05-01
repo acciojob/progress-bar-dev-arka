@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     prevButton.disabled = currentActive === 0
 
     // When all circles become active, disable the next button
-    nextButton.disabled = currentActive === circles.length - 1;
+    nextButton.disabled = currentActive === circles.length ;
   }
 
   prevButton.addEventListener('click', function () {
